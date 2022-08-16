@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700 & family=Montserrat:wght@500;700&display=swap');
+*{  
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5rem;
+    letter-spacing: 0.039rem;
+}
+main{
+    border-radius: 20px;
+    color: hsl(228, 12%, 48%);
+    margin: 169px auto;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    height: 451px;
+    width: 600px;
+    font-size: 14px;
+    background-color: white;
+    justify-content: center;
+    align-self: center;
+}
+#perfume{
+    letter-spacing: 0.4rem;
+    font-size: 00.73rem;
+    margin-bottom: 23px;
+}
+h1{
+    color: black;
+    font-family: "Fraunces", serif;
+    margin: 10px 2px 2px 0px;
+    font-weight: 900;
+}
+section{
+    margin: 25px 0px  ;
+}
+.container1{
+    height: 100%;
+    width: 50%;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.container2{
+    height: 100%;
+    width: 50%;
+    padding: 33px;
+} 
+
+.prices{
+    margin-top: 20px;
+}
+#price{
+    color:hsl(147, 50%, 26%) ;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: "Fraunces", serif;
+}
+#former-price{
+    text-decoration: line-through;
+}
+button{
+   border: none;
+   border-radius: 10px;
+    background-color: hsl(147, 50%, 26%);
+    font-size: 1.4rem;
+    padding: 10px 40px ;
+    color: white;
+}
+
+button:hover{
+    background-color:  hsl(145, 51%, 15%);
+}
+
+@media(max-width:600px){
+    main{
+        height: 100%;
+        width: auto;
+        margin: 27px 17px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container1{
+        height: 30%;
+        width: 100%;
+    }
+    .container1 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+
+    }
+    .container2{
+        height: 70%;
+        width: 100%;
+    }
+}
